@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 
 const Depth2Frame: NextPage = () => {
     return (
-        <header className="self-stretch box-border flex flex-row items-center justify-between py-3 px-10 gap-[0px] top-[0] [row-gap:20px] z-[99] sticky max-w-full text-left text-lg text-gray font-plus-jakarta-sans border-b-[1px] border-solid border-gainsboro bg-white">
+        <header className="self-stretch box-border flex flex-row items-center justify-between py-3 px-10 gap-[0px] top-[0] [row-gap:20px] z-[99] sticky max-w-full text-left text-lg text-gray font-plus-jakarta-sans border-b-[1px] border-solid border-gainsboro bg-orange-400">
             <div className="flex flex-row items-center justify-start">
                 <div className="flex flex-row items-center justify-start gap-[0px_16px]">
                     <div className="flex flex-col items-start justify-start">
@@ -13,7 +13,7 @@ const Depth2Frame: NextPage = () => {
                     <div className="h-[22px] flex flex-col items-start justify-start">
                         <div className="flex flex-col items-start justify-start">
                             <b className="relative tracking-[-0.27px] leading-[22.5px] whitespace-nowrap">
-                                TryMuze
+                                Muze
                             </b>
                         </div>
                     </div>

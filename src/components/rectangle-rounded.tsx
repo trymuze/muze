@@ -279,7 +279,7 @@ const RectangleRounded: NextPage = () => {
             </div>
           </div>
           <div className="flex flex-row items-start justify-start py-0 pr-px pl-[9px]">
-            <div className="relative leading-[24px]">@2024 TryMuze</div>
+            <div className="relative leading-[24px]">@2024 Muze</div>
           </div>
         </div>
       </div>
