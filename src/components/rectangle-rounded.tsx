@@ -2,6 +2,13 @@ import type { NextPage } from "next";
 import Depth7Frame from "./depth7-frame";
 import Depth5Frame from "./depth5-frame";
 
+export type Depth5FrameType = {
+  depth7Frame0?: string;
+  janeSmith?: string;
+  founderCEO?: string;
+  linkedinUrl?: string; // Add this line
+};
+
 const RectangleRounded: NextPage = () => {
   return (
     <div className="self-stretch flex flex-col items-center justify-start gap-[60px_0px] max-w-full text-left text-17xl text-gray font-plus-jakarta-sans mq975:gap-[60px_0px]">
@@ -64,7 +71,7 @@ const RectangleRounded: NextPage = () => {
             <div className="self-stretch flex flex-col items-start justify-start max-w-full text-base">
               <div className="self-stretch flex flex-col items-start justify-start max-w-full">
                 <div className="relative leading-[24px] inline-block max-w-full">
-                  Learn how Creator CRM can help you grow and manage your
+                  Learn how our creator CRM can help you manage and monetize your
                   audience.
                 </div>
               </div>
@@ -94,7 +101,7 @@ const RectangleRounded: NextPage = () => {
               <div className="self-stretch flex-1 flex flex-col items-start justify-start text-sm text-steelblue">
                 <div className="self-stretch flex flex-col items-start justify-start">
                   <div className="w-[185px] relative leading-[21px] inline-block">
-                    Get detailed profiles and insights to understand your
+                    Get detailed insights to understand your
                     audience.
                   </div>
                 </div>
@@ -123,7 +130,7 @@ const RectangleRounded: NextPage = () => {
               <div className="self-stretch flex-1 flex flex-col items-start justify-start text-sm text-steelblue">
                 <div className="self-stretch flex flex-col items-start justify-start">
                   <div className="self-stretch relative leading-[21px]">
-                    Automate your workflows to save time and engage your
+                    Automate workflows, save time and engage your
                     audience.
                   </div>
                 </div>
@@ -198,26 +205,30 @@ const RectangleRounded: NextPage = () => {
               </div>
             </div>
           </div>
-          <div className="self-stretch flex flex-row flex-wrap items-start justify-center p-4 gap-[0px_12px] text-base">
+          <div className="self-stretch flex flex-row flex-wrap items-center justify-center p-4 gap-[0px_12px] text-center">
             <Depth5Frame
-              depth7Frame0="/depth-7-frame-0@2x.png"
+              depth7Frame0="/satyam.jpg"
               janeSmith="Satyam Gupta"
               founderCEO={`Co-founder & CEO`}
+              linkedinUrl="https://www.linkedin.com/in/satyam-gupta-spjimr/"
             />
             <Depth5Frame
-              depth7Frame0="/depth-7-frame-0-1@2x.png"
+              depth7Frame0="/satyajeet.jpg"
               janeSmith="Satyajeet Das"
               founderCEO={`Co-founder & CTO`}
+              linkedinUrl="https://www.linkedin.com/in/satyajeetdas/"
             />
             <Depth5Frame
-              depth7Frame0="/depth-7-frame-0-2@2x.png"
+              depth7Frame0="/pranjal.jpg"
               janeSmith="Pranjal Animesh"
               founderCEO={`Co-founder & CIO`}
+              linkedinUrl="https://www.linkedin.com/in/pranjalanimesh/"
             />
             <Depth5Frame
-              depth7Frame0="/depth-7-frame-0-3@2x.png"
+              depth7Frame0="/sameejpg.jpg"
               janeSmith="Sameer Akhtar"
               founderCEO={`Co-founder & COO`}
+              linkedinUrl="https://www.linkedin.com/in/syed-sameer-akhtar/"
             />
           </div>
         </div>
