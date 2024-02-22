@@ -9,6 +9,8 @@ export type Depth5FrameType = {
   linkedinUrl?: string; // Add this line
 };
 
+import HeroCarousel from '../components/HeroCarousel'; // Adjust the path as necessary
+
 const RectangleRounded: NextPage = () => {
   return (
     <div className="self-stretch flex flex-col items-center justify-start gap-[60px_0px] max-w-full text-left text-17xl text-gray font-plus-jakarta-sans mq975:gap-[60px_0px]">
@@ -35,13 +37,13 @@ const RectangleRounded: NextPage = () => {
         <div className="self-stretch grid flex-row items-start justify-start gap-[0px_12px] shrink-0 grid-cols-[repeat(4,_minmax(167px,_1fr))] text-base mq450:grid-cols-[minmax(167px,_1fr)] mq950:justify-center mq950:grid-cols-[repeat(2,_minmax(167px,_290px))]">
           <Depth7Frame
             depth9Frame0="/Depth-9-Frame-0.png"
-            audienceInsights="Audience insights"
-            understandYourAudienceWit="Understand your audience with detailed profiles and insights."
+            audienceInsights="Understand your audience"
+            understandYourAudienceWit="Get detailed insights to understand your audience."
           />
           <Depth7Frame
             depth9Frame0="/Depth-9-Frame-0-1.png"
-            audienceInsights="Automations"
-            understandYourAudienceWit="Automate your workflows to save time and engage your audience."
+            audienceInsights="Personalization"
+            understandYourAudienceWit="Deliver personalized messages at scale with dynamic content."
             propHeight="236.4px"
           />
           <Depth7Frame
@@ -52,8 +54,8 @@ const RectangleRounded: NextPage = () => {
           />
           <Depth7Frame
             depth9Frame0="/Depth-9-Frame-0.png"
-            audienceInsights="Personalization"
-            understandYourAudienceWit="Deliver personalized messages at  scale with dynamic content."
+            audienceInsights="Make more money"
+            understandYourAudienceWit="Notify your fans the minute your tickets released"
             propHeight="236.4px"
           />
         </div>
