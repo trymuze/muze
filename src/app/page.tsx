@@ -2,6 +2,9 @@ import type { NextPage } from "next";
 import Depth2Frame from "../components/depth2-frame";
 import RectangleRounded from "../components/rectangle-rounded";
 
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 const GalileoDesign: NextPage = () => {
   return (
     <div className="w-full h-[1863px] relative bg-[#fcf8ba] diagonal-gradient-background flex flex-col items-start justify-start tracking-[normal] mq950:h-auto mq950:min-h-[1862.9]">
