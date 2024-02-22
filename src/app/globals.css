@@ -10,3 +10,15 @@ body {
 ::after {
   border-width: 0;
 }
+
+@font-face {
+  font-family: "Pontiac";
+  src: url(./../fonts/Fontspring-DEMO-pontiac_regular.otf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.diagonal-gradient-background {
+  background: linear-gradient(80deg, #000, #423932);
+  /* Adjust the colors and angle as needed */
+}
