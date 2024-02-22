@@ -130,8 +130,7 @@ const RectangleRounded: NextPage = () => {
               <div className="self-stretch flex-1 flex flex-col items-start justify-start text-sm text-steelblue">
                 <div className="self-stretch flex flex-col items-start justify-start">
                   <div className="self-stretch relative leading-[21px]">
-                    Automate workflows, save time and engage your
-                    audience.
+                    Automate workflows, save time and gain more attraction.
                   </div>
                 </div>
               </div>
@@ -179,16 +178,15 @@ const RectangleRounded: NextPage = () => {
             <div className="self-stretch h-[107px] flex flex-col items-start justify-start gap-[4px_0px]">
               <div className="self-stretch h-10 flex flex-col items-start justify-start">
                 <div className="self-stretch flex flex-col items-start justify-start">
-                  <b className="w-[104px] relative leading-[20px] inline-block">
-                    Build lasting relationships
+                  <b className="w-[184px] relative leading-[20px] inline-block">
+                    Make more money with your drops
                   </b>
                 </div>
               </div>
               <div className="self-stretch flex-1 flex flex-col items-start justify-start text-sm text-steelblue">
                 <div className="self-stretch flex flex-col items-start justify-start">
                   <div className="w-[185px] relative leading-[21px] inline-block">
-                    Use detailed profiles and insights to understand your
-                    audience.
+                    Notify your fans the minute your tickets released
                   </div>
                 </div>
               </div>
