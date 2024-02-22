@@ -18,7 +18,7 @@ const GalileoDesign: NextPage = () => {
                   <div className="self-stretch flex flex-col items-start justify-start gap-[8px_0px] max-w-full">
                     <div className="self-stretch flex flex-col items-start justify-start max-w-full">
                       <div className="self-stretch flex flex-col items-start justify-start max-w-full">
-                        <h1 className="m-0 text-black relative text-inherit tracking-[-1.58px] leading-[60px] font-extrabold font-inherit inline-block max-w-full mq450:text-10xl mq450:leading-[36px] mq950:text-[38px] pb-5 mq950:leading-[48px]" style={{fontFamily:"Pontiac", lineHeight:"1.10", fontSize:"70px", color:"#000"}}>
+                        <h1 className="m-0 text-black relative text-inherit tracking-[-1.58px] leading-[60px] font-extrabold font-inherit inline-block max-w-full mq450:text-10xl mq450:leading-[36px] mq950:text-[38px] pb-5 mq950:leading-[48px]" style={{fontFamily:"Pontiac", lineHeight:"1.05", fontSize:"58px", color:"#000"}}>
                           Manage your audience like a pro
                         </h1>
                       </div>
