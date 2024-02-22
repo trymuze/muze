@@ -13,13 +13,13 @@ import HeroCarousel from '../components/HeroCarousel'; // Adjust the path as nec
 
 const RectangleRounded: NextPage = () => {
   return (
-    <div className="self-stretch flex flex-col items-center justify-start gap-[60px_0px] max-w-full text-left text-17xl text-gray font-plus-jakarta-sans mq975:gap-[60px_0px]">
+    <div className="self-stretch flex flex-col items-center justify-start gap-[60px_0px] max-w-full text-left text-17xl text-gray font-plus-jakarta-sans mq975:gap-[60px_0px]" style={{fontFamily:"Locke"}}>
       <div className="self-stretch flex flex-col items-start justify-start pt-0 px-4 pb-5 box-border gap-[40px_0px] max-w-full mq700:gap-[40px_0px]">
         <div className="self-stretch flex flex-col items-start justify-start max-w-full shrink-0">
           <div className="w-[720px] flex flex-col items-start justify-start gap-[16px_0px] max-w-full">
             <div className="self-stretch flex flex-col items-start justify-start max-w-full">
               <div className="self-stretch flex flex-col items-start justify-start max-w-full">
-                <h1 className="m-0 relative text-inherit tracking-[-1.19px] leading-[45px] font-extrabold font-inherit inline-block max-w-full mq450:text-3xl mq450:leading-[27px] mq950:text-10xl mq950:leading-[36px]">
+                <h1 className="m-0 relative text-inherit tracking-[-1.19px] leading-[45px] font-extrabold font-inherit inline-block max-w-full mq450:text-3xl mq450:leading-[27px] mq950:text-10xl mq950:leading-[36px]" style={{fontFamily:"Pontiac"}}>
                   The CRM built for creators
                 </h1>
               </div>
@@ -65,7 +65,7 @@ const RectangleRounded: NextPage = () => {
           <div className="w-[720px] flex flex-col items-start justify-start gap-[16px_0px] max-w-full">
             <div className="self-stretch flex flex-col items-start justify-start">
               <div className="self-stretch flex flex-col items-start justify-start">
-                <h1 className="m-0 relative text-inherit tracking-[-1.19px] leading-[45px] font-extrabold font-inherit mq450:text-3xl mq450:leading-[27px] mq950:text-10xl mq950:leading-[36px]">
+                <h1 className="m-0 relative text-inherit tracking-[-1.19px] leading-[45px] font-extrabold font-inherit mq450:text-3xl mq450:leading-[27px] mq950:text-10xl mq950:leading-[36px]" style={{fontFamily:"Pontiac"}}>
                   How it works
                 </h1>
               </div>
@@ -95,7 +95,7 @@ const RectangleRounded: NextPage = () => {
             <div className="self-stretch h-[107px] flex flex-col items-start justify-start gap-[4px_0px]">
               <div className="self-stretch h-10 flex flex-col items-start justify-start">
                 <div className="self-stretch flex flex-col items-start justify-start">
-                  <b className="w-[138px] relative leading-[20px] inline-block">
+                  <b className="w-[138px] relative leading-[20px] inline-block" style={{fontFamily:"Pontiac"}}>
                     Understand your audience
                   </b>
                 </div>
@@ -124,7 +124,7 @@ const RectangleRounded: NextPage = () => {
             <div className="self-stretch h-[87px] flex flex-col items-start justify-start gap-[4px_0px]">
               <div className="flex flex-col items-start justify-start">
                 <div className="flex flex-col items-start justify-start">
-                  <b className="relative leading-[20px]">
+                  <b className="relative leading-[20px]" style={{fontFamily:"Pontiac"}}>
                     Scale your engagement
                   </b>
                 </div>
@@ -152,7 +152,7 @@ const RectangleRounded: NextPage = () => {
             <div className="self-stretch h-[107px] flex flex-col items-start justify-start gap-[4px_0px]">
               <div className="self-stretch h-10 flex flex-col items-start justify-start">
                 <div className="self-stretch flex flex-col items-start justify-start">
-                  <b className="w-[167px] relative leading-[20px] inline-block">
+                  <b className="w-[167px] relative leading-[20px] inline-block" style={{fontFamily:"Pontiac"}}>
                     Create personalized experiences
                   </b>
                 </div>
@@ -180,14 +180,14 @@ const RectangleRounded: NextPage = () => {
             <div className="self-stretch h-[107px] flex flex-col items-start justify-start gap-[4px_0px]">
               <div className="self-stretch h-10 flex flex-col items-start justify-start">
                 <div className="self-stretch flex flex-col items-start justify-start">
-                  <b className="w-[184px] relative leading-[20px] inline-block">
+                  <b className="w-[184px] relative leading-[20px] inline-block" style={{fontFamily:"Pontiac"}}>
                     Make more money with your drops
                   </b>
                 </div>
               </div>
               <div className="self-stretch flex-1 flex flex-col items-start justify-start text-sm text-steelblue">
                 <div className="self-stretch flex flex-col items-start justify-start">
-                  <div className="w-[185px] relative leading-[21px] inline-block">
+                  <div className="w-[185px] relative leading-[21px] inline-block" >
                     Notify your fans the minute your tickets released
                   </div>
                 </div>
@@ -199,7 +199,7 @@ const RectangleRounded: NextPage = () => {
           <div className="self-stretch flex flex-row items-start justify-start pt-5 px-4 pb-3">
             <div className="flex flex-col items-start justify-start">
               <div className="flex flex-col items-start justify-start">
-                <h3 className="m-0 relative text-inherit tracking-[-0.33px] leading-[27.5px] font-bold font-inherit mq450:text-lg mq450:leading-[22px]">
+                <h3 className="m-0 relative text-inherit tracking-[-0.33px] leading-[27.5px] font-bold font-inherit mq450:text-lg mq450:leading-[22px]" style={{fontFamily:"Pontiac", fontSize:"34px"}}>
                   Meet the team
                 </h3>
               </div>
@@ -290,7 +290,12 @@ const RectangleRounded: NextPage = () => {
             </div>
           </div>
           <div className="flex flex-row items-start justify-start py-0 pr-px pl-[9px]">
-            <div className="relative leading-[24px]">@2024 Muze</div>
+            <div className="relative leading-[24px]" style={{fontFamily:"Pontiac"}}>
+              ©202<span style={{fontFamily:"Arial", color:"#000"}}>4</span> Muze
+              <a href = "mailto:contact@trymuze.com" style={{textDecoration:"None"}}>
+              <p className="text-black">contact<span style={{fontFamily:"Arial",fontSize:"16px", color:"#000"}}>@</span>trymuze.com</p>
+              </a>
+              </div>
           </div>
         </div>
       </div>

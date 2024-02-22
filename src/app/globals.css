@@ -18,7 +18,14 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Locke";
+  src: url(./../fonts/Coltan-Gea-Light-demo-FFP.ttf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 .diagonal-gradient-background {
-  background: linear-gradient(80deg, #000, #423932);
+  background: linear-gradient(80deg, #fcf8ba, #423932);
   /* Adjust the colors and angle as needed */
 }

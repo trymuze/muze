@@ -24,7 +24,7 @@ const Depth7Frame: NextPage<Depth7FrameType> = ({
 
   return (
     <div
-      className="h-[236.4px] flex flex-col items-start justify-start gap-[12px_0px] text-left text-base text-gray font-plus-jakarta-sans"
+      className="h-[236.4px] flex flex-col items-start justify-start gap-[12px_0px] text-left text-base text-gray font-plus-jakarta-sans "
       style={depth7Frame0Style}
     >
       <div className="self-stretch h-[125.4px] flex flex-col items-start justify-start">
@@ -37,12 +37,12 @@ const Depth7Frame: NextPage<Depth7FrameType> = ({
       </div>
       <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-3">
         <div className="self-stretch flex flex-col items-start justify-start">
-          <div className="self-stretch relative leading-[24px] font-medium">
+          <div className="self-stretch relative leading-[24px] font-medium" style={{fontFamily:"Pontiac",}}>
             {audienceInsights}
           </div>
         </div>
         <div className="self-stretch flex flex-col items-start justify-start text-sm text-steelblue">
-          <div className="self-stretch relative leading-[21px]">
+          <div className="self-stretch relative leading-[21px]" style={{fontFamily:"Locke"}}>
             {understandYourAudienceWit}
           </div>
         </div>

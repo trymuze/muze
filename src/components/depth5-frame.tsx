@@ -15,7 +15,7 @@ const Depth5Frame: NextPage<Depth5FrameType> = ({
   linkedinUrl, // Destructure the linkedinUrl from the props
 }) => {
   return (
-    <div className="flex-1 rounded-lg bg-whitesmoke box-border flex flex-col items-center justify-center py-4 pr-[18px] pl-4 gap-[12px_0px] min-w-[205px] max-w-[223px] text-center text-base text-gray font-plus-jakarta-sans border-[1px] border-solid border-lavender">
+    <div className="flex-1 rounded-lg  bg-[#ff7b00cf] box-border flex flex-col items-center justify-center py-4 pr-[18px] pl-4 gap-[12px_0px] min-w-[205px] max-w-[223px] text-center text-base text-gray font-plus-jakarta-sans border-[1px] border-solid border-lavender">
       <div className="flex items-center justify-center text-center">
         <Image
           className="w-20 h-20 relative rounded-xl overflow-hidden object-cover"
@@ -28,7 +28,7 @@ const Depth5Frame: NextPage<Depth5FrameType> = ({
       </div>
       <div className="self-stretch flex flex-col items-center justify-start gap-[4px_0px]">
         <div className="self-stretch flex flex-col items-center justify-start">
-          <div className="self-stretch flex flex-col items-center justify-start">
+          <div className="self-stretch flex flex-col items-center justify-start" style={{fontFamily:"Pontiac"}}>
             {/* Use an <a> tag for the LinkedIn link */}
             {linkedinUrl ? (
               <a
@@ -44,7 +44,7 @@ const Depth5Frame: NextPage<Depth5FrameType> = ({
             )}
           </div>
         </div>
-        <div className="self-stretch flex flex-col items-center justify-start text-sm text-steelblue">
+        <div className="self-stretch flex flex-col items-center justify-start text-sm text-white" style={{fontFamily:"Locke"}}>
           <div className="self-stretch flex flex-col items-center justify-start">
             <div className="relative leading-[21px]">{founderCEO}</div>
           </div>

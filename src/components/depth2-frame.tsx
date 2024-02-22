@@ -60,7 +60,7 @@ const Depth2Frame: NextPage = () => {
                         <div className="bg-[#FF7B00] overflow-hidden flex flex-col items-start justify-start">
                             <div className="flex flex-col items-start justify-start">
                                 <b className="relative tracking-[0.21px] leading-[21px] whitespace-nowrap text-black" style={{fontFamily:"Pontiac", fontSize:"16px"}}>
-                                    Sign up
+                                    Waitlist
                                 </b>
                             </div>
                         </div>
