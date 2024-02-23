@@ -54,7 +54,7 @@ const Depth2Frame: NextPage = () => {
                         </div>
                     </div> */}
                 </div>
-                <div className="self-stretch w-44 flex flex-row items-start justify-start gap-[0px_8px]">
+                {/* <div className="self-stretch w-44 flex flex-row items-start justify-start gap-[0px_8px]">
 
                     <div className="self-stretch rounded-xl bg-[#FF7B00] overflow-hidden flex flex-row items-center justify-center py-0 px-4">
                         <div className="bg-[#FF7B00] overflow-hidden flex flex-col items-start justify-start">
@@ -65,7 +65,7 @@ const Depth2Frame: NextPage = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </header>
     );

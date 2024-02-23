@@ -5,14 +5,14 @@ import RectangleRounded from "../components/rectangle-rounded";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-function GradientText({ text, startColor, endColor }: { text: string; startColor: string; endColor: string }) {
+function GradientText({ text, startColor, endColor, fontSize }: { text: string; startColor: string; endColor: string, fontSize: string }) {
   const gradientStyle = {
     backgroundImage: `linear-gradient(to top, ${startColor}, ${endColor})`,
     WebkitBackgroundClip: 'text',
     WebkitTextFillColor: 'transparent',
     fontFamily: 'Pontiac',
     lineHeight: '1.05',
-    fontSize: '58px',
+    fontSize: fontSize,
   };
 
   return <div style={gradientStyle}>{text}</div>;
@@ -32,18 +32,16 @@ const GalileoDesign: NextPage = () => {
                     <div className="self-stretch flex flex-col items-start justify-start max-w-full">
                       <div className="self-stretch flex flex-col items-start justify-start max-w-full">
                         <h1 className="m-0 text-black relative text-inherit tracking-[-1.58px] leading-[60px] font-extrabold font-inherit inline-block max-w-full mq450:text-10xl mq450:leading-[36px] mq950:text-[38px] pb-5 mq950:leading-[48px]" style={{fontFamily:"Pontiac", lineHeight:"1.05", fontSize:"58px",}}>
-                          <GradientText text="Manage your audience like a pro" startColor="#fc7f08" endColor="#ff00ff" />
-                          {/* Manage your audience like a pro */}
-                          {/* color: "linear-gradient(to right, #fc7f08, #ff00ff)" */}
-                          {/* color: "#fc7f08" */}
+                          <GradientText text="Manage your audience like a pro" startColor="#fc7f08" endColor="#ff00ff" fontSize="58px"/>
                         </h1>
                       </div>
                     </div>
-                    <div className="self-stretch flex flex-col items-start justify-start text-base">
+                    <div className="self-stretch flex flex-col items-start justify-start text-base mb-6">
                       <div className="self-stretch flex flex-col items-start justify-start">
-                        <div className="relative leading-[24px] mb-2" style={{fontFamily:"Locke  "}}>
-                          Creator CRM helps you turn your fans into superfans
-                          with powerful tools for managing your audience.
+                        <div className="relative leading-[24px]" style={{fontFamily:"Locke  "}}>
+                        <GradientText text="Muze CRM helps you turn your fans into superfans
+                          with powerful tools for managing your audience." startColor="#fff" endColor="#3cabce" fontSize="18px"/>
+                          
                         </div>
                       </div>
                     </div>
