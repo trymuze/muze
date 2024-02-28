@@ -87,7 +87,43 @@ const RectangleRounded: NextPage = () => {
 </div>
 
 
-
+<div className="self-stretch flex flex-col items-start justify-start text-3xl">
+          <div className="self-stretch flex flex-row items-start justify-start pt-5 px-4 pb-3">
+            <div className="flex flex-col items-start justify-start">
+              <div className="flex flex-col items-start justify-start">
+                <h3 className="m-0 relative text-inherit tracking-[-0.33px] leading-[27.5px] font-bold font-inherit mq450:text-lg mq450:leading-[22px]" style={{fontFamily:"Pontiac", fontSize:"34px"}}>
+                  Meet the team
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="self-stretch flex flex-row flex-wrap items-center justify-center p-4 gap-[0px_12px] text-center">
+            <Depth5Frame
+              depth7Frame0="/satyam.jpg"
+              janeSmith="Satyam Gupta"
+              founderCEO={`Co-founder & CEO`}
+              linkedinUrl="https://www.linkedin.com/in/satyam-gupta-spjimr/"
+            />
+            <Depth5Frame
+              depth7Frame0="/satyajeet.jpg"
+              janeSmith="Satyajeet Das"
+              founderCEO={`Co-founder & CTO`}
+              linkedinUrl="https://www.linkedin.com/in/satyajeetdas/"
+            />
+            <Depth5Frame
+              depth7Frame0="/pranjal.jpg"
+              janeSmith="Pranjal Animesh"
+              founderCEO={`Co-founder & CIO`}
+              linkedinUrl="https://www.linkedin.com/in/pranjalanimesh/"
+            />
+            <Depth5Frame
+              depth7Frame0="/sameejpg.jpg"
+              janeSmith="Sameer Akhtar"
+              founderCEO={`Co-founder & COO`}
+              linkedinUrl="https://www.linkedin.com/in/syed-sameer-akhtar/"
+            />
+          </div>
+        </div>
 
 
       

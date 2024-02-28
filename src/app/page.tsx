@@ -20,7 +20,7 @@ function GradientText({ text, startColor, endColor, fontSize }: { text: string; 
 
 const GalileoDesign: NextPage = () => {
   return (
-    <div className="w-full h-[1430px] relative bg-[#fcf8ba] flex flex-col items-start justify-start tracking-[normal] mq950:h-auto mq950:min-h-[1862.9]">
+    <div className="w-full h-[1760px] relative bg-[#fcf8ba] flex flex-col items-start justify-start tracking-[normal] mq950:h-auto mq950:min-h-[1862.9]">
       <main className="w-full my-0 mx-[!important] absolute h-full top-[0px] right-[0px] bottom-[0px] left-[0px] flex flex-col items-center justify-start pt-0 px-0 pb-10 box-border gap-[36px_0px] max-w-full mq700:gap-[36px_0px]">
         <Depth2Frame />
         <section className="w-[1000px] flex flex-col items-center justify-start py-0 px-5 box-border gap-[56px_0px] max-w-full shrink-0 text-left text-[48px] text-white font-plus-jakarta-sans mq700:gap-[56px_0px]">
